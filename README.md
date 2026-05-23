@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎵 Music Cutter — Parody Maker
 
 > A full-featured Flutter app to **cut, trim, merge and manage multiple audio files** into a single parody track. Built for Android with persistent internal storage, haptic feedback, and a polished dark UI.
@@ -346,3 +347,6 @@ Do not distribute copyrighted audio without permission.
 ---
 
 *Built with Flutter  — Music Cutter v1.0.0*
+=======
+# music_cutter
+>>>>>>> 3a4ba1397d85fb52028ac5b1a4ce1c945378e467
