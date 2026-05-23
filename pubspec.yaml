@@ -1,0 +1,68 @@
+name: music_cutter
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Audio playback & recording
+  just_audio: ^0.9.36
+  audio_session: ^0.1.18
+  audioplayers: ^5.2.1
+
+  # File picking
+  file_picker: ^8.0.3
+
+  # Share to WhatsApp, Telegram, Gmail, Bluetooth etc
+  share_plus: ^10.1.4
+
+  # Save audio to phone's public Music/Downloads folder
+  saver_gallery: ^3.0.6
+
+  # Storage & permissions
+  path_provider: ^2.1.2
+  permission_handler: ^11.3.0
+  shared_preferences: ^2.2.2
+
+  # UI & animations
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.6
+  flutter_slidable: ^3.1.0
+  lottie: ^3.1.0
+  flutter_colorpicker: ^1.0.3
+
+  # Utils
+  path: ^1.9.0
+  uuid: ^4.3.3
+  intl: ^0.19.0
+
+  # Trim / merge / export (Android API 24+)
+  ffmpeg_kit_flutter_new_audio: ^2.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+  flutter_lints: ^6.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/audio.png"
+  min_sdk_android: 21
+
