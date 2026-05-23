@@ -14,6 +14,21 @@
 | **Trim Sheet** | Visual waveform, start/end sliders, live preview        |
 | **Outputs**    | Play exported files with seek bar, delete               |
 
+
+# Music Cutter App
+
+## Screenshots
+
+### Home Screen
+![Home Screen](screenshot/home_page.jpeg)
+
+### Editor Screen
+![Editor Screen](screenshot/editing_page.jpeg)
+
+
+### Output Screen
+![Output Screen](screenshot/output.jpeg)
+
 ---
 
 ## ✨ Features
